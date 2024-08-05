@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    // Print Good Morning message
+    printf("Good Morning!\n");
+    
+    // Print some motivational thoughts
+    printf("Every day is a new beginning. Take a deep breath, smile, and start again.\n");
+    printf("Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.\n");
+    printf("Don't watch the clock; do what it does. Keep going.\n");
+    printf("Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.\n");
+    
+    return 0;
+}
