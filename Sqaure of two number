@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int number, square;
+
+    // Asking for input
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+
+    // Calculating the square
+    square = number * number;
+
+    // Displaying the result
+    printf("Square of %d is %d\n", number, square);
+
+    return 0;
+}
