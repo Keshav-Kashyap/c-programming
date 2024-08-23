@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Declare an array of integers with 5 elements
+    int myArray[5];
+    
+    // Optionally, initialize the array with values
+    int myInitializedArray[5] = {1, 2, 3, 4, 5};
+
+    // Accessing and printing the first element of the array
+    printf("First element: %d\n", myArray[0]);
+    
+    // Accessing and printing the first element of the initialized array
+    printf("First element of initialized array: %d\n", myInitializedArray[0]);
+
+    return 0;
+}
