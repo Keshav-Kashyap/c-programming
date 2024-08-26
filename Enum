@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+// Defining an enum with custom values
+enum Colors {
+    RED = 1,
+    GREEN = 3,
+    BLUE = 5
+};
+
+int main() {
+    enum Colors myColor;
+
+    myColor = GREEN;   // Assigning the enum value to the variable
+
+    printf("My selected color has value: %d\n", myColor);
+
+    return 0;
+}
